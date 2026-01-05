@@ -45,7 +45,7 @@ This work presents state-of-the-art Arabic text embedding models trained using:
 The Arabic version of SNLI and MultiNLI datasets (triplet subset). Contains anchor-positive-negative triplets for training semantic similarity models.
 
 - **Format**: CSV with columns: `anchor`, `positive`, `negative`
-- **Training samples**: ~557,852 triplets
+- **Training samples**: ~557,852 triplets (large file not included in repository due to size limits)
 - **Test samples**: ~6,611 triplets
 
 See `data/README_NLI.md` for more details.
