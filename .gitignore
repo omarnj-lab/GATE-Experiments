@@ -18,9 +18,8 @@ models/*.safetensors
 *.pth
 
 # Data (large files)
-# Uncomment if you don't want to track large CSV files
-# data/train/*.csv
-# data/test/*.csv
+# Large training file exceeds GitHub's 100MB limit
+data/train/train_nli.csv
 
 # IDE
 .vscode/
